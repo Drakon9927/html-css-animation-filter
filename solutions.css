@@ -118,3 +118,49 @@
     border-radius: 42px 42px 42px 42px;
 }
 
+/* Animazione 9 */
+
+.ex-9-img{
+    transition: 3s;
+}
+
+.ex-9-img:hover{
+    filter:contrast(3.5) brightness(3.2) saturate(3.5);
+    border-radius: 42px 42px 42px 42px;
+    transform: scale(150%);
+}
+
+/* Animazione 10 */
+
+.ex-10-icon{
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+/* Animazione 11 */
+
+.ex-11-icon:hover{
+    animation: unconmpletespin 1s linear infinite;
+}
+
+@keyframes unconmpletespin {
+    0% {
+        transform: rotate(0);
+    }
+
+    80% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+
+
